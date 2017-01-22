@@ -329,6 +329,15 @@ kernel = {
   extra_dist = kern/i386/realmode.S;
   extra_dist = boot/i386/pc/lzma_decode.S;
   extra_dist = kern/mips/cache_flush.S;
+
+  common = ../grub-invaders/common.c;
+  common = ../grub-invaders/delay.c;
+  common = ../grub-invaders/game.c;
+  common = ../grub-invaders/kernel.c;
+  common = ../grub-invaders/keyboard.c;
+  common = ../grub-invaders/memory.c;
+  common = ../grub-invaders/sound.c;
+  common = ../grub-invaders/video.c;
 };
 
 program = {

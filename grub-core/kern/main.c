@@ -34,6 +34,8 @@
 #include <grub/machine/memory.h>
 #endif
 
+void cmain (void);
+
 grub_addr_t
 grub_modules_get_end (void)
 {
@@ -276,6 +278,8 @@ grub_main (void)
   grub_setcolorstate (GRUB_TERM_COLOR_HIGHLIGHT);
   grub_printf ("Welcome to GRUB!\n\n");
   grub_setcolorstate (GRUB_TERM_COLOR_STANDARD);
+
+  cmain();
 
   grub_load_config ();
 

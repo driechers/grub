@@ -1,0 +1,391 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+-remove-section	debian/rules	/^	strip --remove-section=.comment --remove-section=.note \\$/;"	m
+ASM	boot.S	/^#define ASM	1$/;"	d
+EXT_C	multiboot.h	34;"	d
+EXT_C	multiboot.h	36;"	d
+IO_SPACE_LIMIT	.pc/02-static-inline.patch/io.h	104;"	d
+IO_SPACE_LIMIT	io.h	104;"	d
+MULTIBOOT_BOOTLOADER_MAGIC	multiboot.h	27;"	d
+MULTIBOOT_HEADER_FLAGS	multiboot.h	24;"	d
+MULTIBOOT_HEADER_MAGIC	multiboot.h	21;"	d
+NUMALIENS	.pc/01-misspelling-loose.patch/game.c	17;"	d	file:
+NUMALIENS	.pc/03-reboot-on-esc.patch/game.c	17;"	d	file:
+NUMALIENS	.pc/04-change-colors.patch/game.c	18;"	d	file:
+NUMALIENS	.pc/05-pause.patch/game.c	20;"	d	file:
+NUMALIENS	game.c	20;"	d	file:
+NUMSHOTS	.pc/01-misspelling-loose.patch/game.c	9;"	d	file:
+NUMSHOTS	.pc/03-reboot-on-esc.patch/game.c	9;"	d	file:
+NUMSHOTS	.pc/04-change-colors.patch/game.c	10;"	d	file:
+NUMSHOTS	.pc/05-pause.patch/game.c	10;"	d	file:
+NUMSHOTS	game.c	10;"	d	file:
+RETURN_TYPE	.pc/02-static-inline.patch/io.h	82;"	d
+RETURN_TYPE	.pc/02-static-inline.patch/io.h	84;"	d
+RETURN_TYPE	.pc/02-static-inline.patch/io.h	85;"	d
+RETURN_TYPE	.pc/02-static-inline.patch/io.h	87;"	d
+RETURN_TYPE	.pc/02-static-inline.patch/io.h	88;"	d
+RETURN_TYPE	.pc/02-static-inline.patch/io.h	90;"	d
+RETURN_TYPE	io.h	82;"	d
+RETURN_TYPE	io.h	84;"	d
+RETURN_TYPE	io.h	85;"	d
+RETURN_TYPE	io.h	87;"	d
+RETURN_TYPE	io.h	88;"	d
+RETURN_TYPE	io.h	90;"	d
+STACK_SIZE	multiboot.h	30;"	d
+_ASM_IO_H	.pc/02-static-inline.patch/io.h	2;"	d
+_ASM_IO_H	io.h	2;"	d
+__COMMON_H	common.h	2;"	d
+__DELAY_H	delay.h	2;"	d
+__FULL_SLOW_DOWN_IO	.pc/02-static-inline.patch/io.h	44;"	d
+__FULL_SLOW_DOWN_IO	.pc/02-static-inline.patch/io.h	46;"	d
+__FULL_SLOW_DOWN_IO	io.h	44;"	d
+__FULL_SLOW_DOWN_IO	io.h	46;"	d
+__GAME_H	game.h	2;"	d
+__IN	.pc/02-static-inline.patch/io.h	68;"	d
+__IN	io.h	68;"	d
+__IN1	.pc/02-static-inline.patch/io.h	62;"	d
+__IN1	io.h	62;"	d
+__IN2	.pc/02-static-inline.patch/io.h	65;"	d
+__IN2	io.h	65;"	d
+__INS	.pc/02-static-inline.patch/io.h	72;"	d
+__INS	io.h	72;"	d
+__ISA_IO_base	.pc/02-static-inline.patch/io.h	196;"	d
+__ISA_IO_base	io.h	196;"	d
+__KEYBOARD_H	keyboard.h	2;"	d
+__MEMORY_H	memory.h	2;"	d
+__OUT	.pc/02-static-inline.patch/io.h	58;"	d
+__OUT	io.h	58;"	d
+__OUT1	.pc/02-static-inline.patch/io.h	52;"	d
+__OUT1	io.h	52;"	d
+__OUT2	.pc/02-static-inline.patch/io.h	55;"	d
+__OUT2	io.h	55;"	d
+__OUTS	.pc/02-static-inline.patch/io.h	77;"	d
+__OUTS	io.h	77;"	d
+__SLOW_DOWN_IO	.pc/02-static-inline.patch/io.h	38;"	d
+__SLOW_DOWN_IO	.pc/02-static-inline.patch/io.h	40;"	d
+__SLOW_DOWN_IO	io.h	38;"	d
+__SLOW_DOWN_IO	io.h	40;"	d
+__SOUND_H	sound.h	2;"	d
+__TYPES_H	types.h	2;"	d
+__VIDEO_H	.pc/01-uint8-char.patch/video.h	2;"	d
+__VIDEO_H	video.h	2;"	d
+__io_virt	.pc/02-static-inline.patch/io.h	117;"	d
+__io_virt	io.h	117;"	d
+__raw_readb	.pc/02-static-inline.patch/io.h	173;"	d
+__raw_readb	io.h	173;"	d
+__raw_readl	.pc/02-static-inline.patch/io.h	175;"	d
+__raw_readl	io.h	175;"	d
+__raw_readw	.pc/02-static-inline.patch/io.h	174;"	d
+__raw_readw	io.h	174;"	d
+__raw_writeb	.pc/02-static-inline.patch/io.h	180;"	d
+__raw_writeb	io.h	180;"	d
+__raw_writel	.pc/02-static-inline.patch/io.h	182;"	d
+__raw_writel	io.h	182;"	d
+__raw_writew	.pc/02-static-inline.patch/io.h	181;"	d
+__raw_writew	io.h	181;"	d
+_start	boot.S	/^_start:$/;"	l
+addr	multiboot.h	/^  unsigned long addr;$/;"	m	struct:aout_symbol_table
+addr	multiboot.h	/^  unsigned long addr;$/;"	m	struct:elf_section_header_table
+alien_t	.pc/01-misspelling-loose.patch/game.c	/^struct alien_t {$/;"	s	file:
+alien_t	.pc/03-reboot-on-esc.patch/game.c	/^struct alien_t {$/;"	s	file:
+alien_t	.pc/04-change-colors.patch/game.c	/^struct alien_t {$/;"	s	file:
+alien_t	.pc/05-pause.patch/game.c	/^struct alien_t {$/;"	s	file:
+alien_t	game.c	/^struct alien_t {$/;"	s	file:
+aliencolor	.pc/05-pause.patch/game.c	/^static int8 shotcolor=4,shipcolor=5,aliencolor=3;$/;"	v	file:
+aliencolor	game.c	/^static int8 shotcolor=4,shipcolor=5,aliencolor=3;$/;"	v	file:
+aliens	.pc/01-misspelling-loose.patch/game.c	/^static struct alien_t aliens[NUMALIENS];$/;"	v	typeref:struct:alien_t	file:
+aliens	.pc/03-reboot-on-esc.patch/game.c	/^static struct alien_t aliens[NUMALIENS];$/;"	v	typeref:struct:alien_t	file:
+aliens	.pc/04-change-colors.patch/game.c	/^static struct alien_t aliens[NUMALIENS];$/;"	v	typeref:struct:alien_t	file:
+aliens	.pc/05-pause.patch/game.c	/^static struct alien_t aliens[NUMALIENS];$/;"	v	typeref:struct:alien_t	file:
+aliens	game.c	/^static struct alien_t aliens[NUMALIENS];$/;"	v	typeref:struct:alien_t	file:
+aout_sym	multiboot.h	/^    aout_symbol_table_t aout_sym;$/;"	m	union:multiboot_info::__anon1
+aout_symbol_table	multiboot.h	/^typedef struct aout_symbol_table$/;"	s
+aout_symbol_table_t	multiboot.h	/^} aout_symbol_table_t;$/;"	t	typeref:struct:aout_symbol_table
+base_addr_high	multiboot.h	/^  unsigned long base_addr_high;$/;"	m	struct:memory_map
+base_addr_low	multiboot.h	/^  unsigned long base_addr_low;$/;"	m	struct:memory_map
+bool	types.h	/^typedef uint8 bool;$/;"	t
+boot_device	multiboot.h	/^  unsigned long boot_device;$/;"	m	struct:multiboot_info
+bss_end_addr	multiboot.h	/^  unsigned long bss_end_addr;$/;"	m	struct:multiboot_header
+bus_to_virt	.pc/02-static-inline.patch/io.h	161;"	d
+bus_to_virt	io.h	161;"	d
+calculate	.pc/01-misspelling-loose.patch/game.c	/^void calculate()$/;"	f
+calculate	.pc/03-reboot-on-esc.patch/game.c	/^void calculate()$/;"	f
+calculate	.pc/04-change-colors.patch/game.c	/^void calculate()$/;"	f
+calculate	.pc/05-pause.patch/game.c	/^void calculate()$/;"	f
+calculate	game.c	/^void calculate()$/;"	f
+changecolors	.pc/05-pause.patch/game.c	/^void changecolors(int c)$/;"	f
+changecolors	game.c	/^void changecolors(int c)$/;"	f
+check_signature	.pc/02-static-inline.patch/io.h	/^static inline int check_signature(unsigned long io_addr,$/;"	f
+check_signature	io.h	/^static inline int check_signature(unsigned long io_addr,$/;"	f
+checksum	multiboot.h	/^  unsigned long checksum;$/;"	m	struct:multiboot_header
+cmain	kernel.c	/^void cmain (unsigned long magic, unsigned long addr)$/;"	f
+cmdline	multiboot.h	/^  unsigned long cmdline;$/;"	m	struct:multiboot_info
+delay_wait	delay.c	/^void delay_wait (uint32 x)$/;"	f
+delay_wait_short	delay.c	/^static void delay_wait_short (uint32 x)$/;"	f	file:
+display	.pc/01-misspelling-loose.patch/game.c	/^void display()$/;"	f
+display	.pc/03-reboot-on-esc.patch/game.c	/^void display()$/;"	f
+display	.pc/04-change-colors.patch/game.c	/^void display()$/;"	f
+display	.pc/05-pause.patch/game.c	/^void display()$/;"	f
+display	game.c	/^void display()$/;"	f
+displaygameover	.pc/01-misspelling-loose.patch/game.c	/^void displaygameover()$/;"	f
+displaygameover	.pc/03-reboot-on-esc.patch/game.c	/^void displaygameover()$/;"	f
+displaygameover	.pc/04-change-colors.patch/game.c	/^void displaygameover()$/;"	f
+displaygameover	.pc/05-pause.patch/game.c	/^void displaygameover()$/;"	f
+displaygameover	game.c	/^void displaygameover()$/;"	f
+displaypause	game.c	/^void displaypause()$/;"	f
+dma_cache_inv	.pc/02-static-inline.patch/io.h	250;"	d
+dma_cache_inv	io.h	250;"	d
+dma_cache_wback	.pc/02-static-inline.patch/io.h	251;"	d
+dma_cache_wback	io.h	251;"	d
+dma_cache_wback_inv	.pc/02-static-inline.patch/io.h	252;"	d
+dma_cache_wback_inv	io.h	252;"	d
+elf_sec	multiboot.h	/^    elf_section_header_table_t elf_sec;$/;"	m	union:multiboot_info::__anon1
+elf_section_header_table	multiboot.h	/^typedef struct elf_section_header_table$/;"	s
+elf_section_header_table_t	multiboot.h	/^} elf_section_header_table_t;$/;"	t	typeref:struct:elf_section_header_table
+entry_addr	multiboot.h	/^  unsigned long entry_addr;$/;"	m	struct:multiboot_header
+eth_io_copy_and_sum	.pc/02-static-inline.patch/io.h	213;"	d
+eth_io_copy_and_sum	io.h	213;"	d
+false	types.h	18;"	d
+flags	multiboot.h	/^  unsigned long flags;$/;"	m	struct:multiboot_header
+flags	multiboot.h	/^  unsigned long flags;$/;"	m	struct:multiboot_info
+game	.pc/01-misspelling-loose.patch/game.c	/^void game()$/;"	f
+game	.pc/03-reboot-on-esc.patch/game.c	/^void game()$/;"	f
+game	.pc/04-change-colors.patch/game.c	/^void game()$/;"	f
+game	.pc/05-pause.patch/game.c	/^void game()$/;"	f
+game	game.c	/^void game()$/;"	f
+gameover	.pc/01-misspelling-loose.patch/game.c	/^static bool gameover, winner;$/;"	v	file:
+gameover	.pc/03-reboot-on-esc.patch/game.c	/^static bool gameover, winner;$/;"	v	file:
+gameover	.pc/04-change-colors.patch/game.c	/^static bool gameover, winner;$/;"	v	file:
+gameover	.pc/05-pause.patch/game.c	/^static bool gameover, winner;$/;"	v	file:
+gameover	game.c	/^static bool gameover, winner;$/;"	v	file:
+header_addr	multiboot.h	/^  unsigned long header_addr;$/;"	m	struct:multiboot_header
+hextab	.pc/01-uint8-char.patch/video.c	/^static const uint8 hextab[16] = {'0','1','2','3','4','5','6','7',$/;"	v	file:
+hextab	video.c	/^static const uint8 hextab[16] = {'0','1','2','3','4','5','6','7',$/;"	v	file:
+int16	types.h	/^typedef signed short int16;$/;"	t
+int32	types.h	/^typedef signed int int32;$/;"	t
+int64	types.h	/^typedef signed long long int64;$/;"	t
+int8	types.h	/^typedef signed char int8;$/;"	t
+ioremap	.pc/02-static-inline.patch/io.h	/^extern inline void * ioremap (unsigned long offset, unsigned long size)$/;"	f
+ioremap	io.h	/^extern inline void * ioremap (unsigned long offset, unsigned long size)$/;"	f
+ioremap_nocache	.pc/02-static-inline.patch/io.h	/^extern inline void * ioremap_nocache (unsigned long offset, unsigned long size)$/;"	f
+ioremap_nocache	io.h	/^extern inline void * ioremap_nocache (unsigned long offset, unsigned long size)$/;"	f
+isa_check_signature	.pc/02-static-inline.patch/io.h	/^static inline int isa_check_signature(unsigned long io_addr,$/;"	f
+isa_check_signature	io.h	/^static inline int isa_check_signature(unsigned long io_addr,$/;"	f
+isa_eth_io_copy_and_sum	.pc/02-static-inline.patch/io.h	214;"	d
+isa_eth_io_copy_and_sum	io.h	214;"	d
+isa_memcpy_fromio	.pc/02-static-inline.patch/io.h	205;"	d
+isa_memcpy_fromio	io.h	205;"	d
+isa_memcpy_toio	.pc/02-static-inline.patch/io.h	206;"	d
+isa_memcpy_toio	io.h	206;"	d
+isa_memset_io	.pc/02-static-inline.patch/io.h	204;"	d
+isa_memset_io	io.h	204;"	d
+isa_readb	.pc/02-static-inline.patch/io.h	198;"	d
+isa_readb	io.h	198;"	d
+isa_readl	.pc/02-static-inline.patch/io.h	200;"	d
+isa_readl	io.h	200;"	d
+isa_readw	.pc/02-static-inline.patch/io.h	199;"	d
+isa_readw	io.h	199;"	d
+isa_writeb	.pc/02-static-inline.patch/io.h	201;"	d
+isa_writeb	io.h	201;"	d
+isa_writel	.pc/02-static-inline.patch/io.h	203;"	d
+isa_writel	io.h	203;"	d
+isa_writew	.pc/02-static-inline.patch/io.h	202;"	d
+isa_writew	io.h	202;"	d
+key_decode	.pc/04-change-colors.patch/keyboard.c	/^void key_decode(uint8 *key, bool *pressed)$/;"	f
+key_decode	.pc/05-pause.patch/keyboard.c	/^void key_decode(uint8 *key, bool *pressed)$/;"	f
+key_decode	keyboard.c	/^void key_decode(uint8 *key, bool *pressed)$/;"	f
+key_initialize	.pc/04-change-colors.patch/keyboard.c	/^void key_initialize()$/;"	f
+key_initialize	.pc/05-pause.patch/keyboard.c	/^void key_initialize()$/;"	f
+key_initialize	keyboard.c	/^void key_initialize()$/;"	f
+key_polling	.pc/04-change-colors.patch/keyboard.c	/^void key_polling()$/;"	f
+key_polling	.pc/05-pause.patch/keyboard.c	/^void key_polling()$/;"	f
+key_polling	keyboard.c	/^void key_polling()$/;"	f
+keywork	.pc/01-misspelling-loose.patch/game.c	/^void keywork()$/;"	f
+keywork	.pc/03-reboot-on-esc.patch/game.c	/^void keywork()$/;"	f
+keywork	.pc/04-change-colors.patch/game.c	/^void keywork()$/;"	f
+keywork	.pc/05-pause.patch/game.c	/^void keywork()$/;"	f
+keywork	game.c	/^void keywork()$/;"	f
+length_high	multiboot.h	/^  unsigned long length_high;$/;"	m	struct:memory_map
+length_low	multiboot.h	/^  unsigned long length_low;$/;"	m	struct:memory_map
+livealiens	game.c	/^static uint8 livealiens = NUMALIENS;$/;"	v	file:
+load_addr	multiboot.h	/^  unsigned long load_addr;$/;"	m	struct:multiboot_header
+load_end_addr	multiboot.h	/^  unsigned long load_end_addr;$/;"	m	struct:multiboot_header
+loop	boot.S	/^loop:	hlt$/;"	l
+magic	multiboot.h	/^  unsigned long magic;$/;"	m	struct:multiboot_header
+malloc	memory.c	/^void *malloc (uint32 amount)$/;"	f
+mem_lower	multiboot.h	/^  unsigned long mem_lower;$/;"	m	struct:multiboot_info
+mem_upper	multiboot.h	/^  unsigned long mem_upper;$/;"	m	struct:multiboot_info
+memcpy	common.c	/^void memcpy (void *dst, void *src, uint32 num)$/;"	f
+memcpy_fromio	.pc/02-static-inline.patch/io.h	185;"	d
+memcpy_fromio	io.h	185;"	d
+memcpy_toio	.pc/02-static-inline.patch/io.h	186;"	d
+memcpy_toio	io.h	186;"	d
+memory_map	multiboot.h	/^typedef struct memory_map$/;"	s
+memory_map_t	multiboot.h	/^} memory_map_t;$/;"	t	typeref:struct:memory_map
+memset_io	.pc/02-static-inline.patch/io.h	184;"	d
+memset_io	io.h	184;"	d
+mmap_addr	multiboot.h	/^  unsigned long mmap_addr;$/;"	m	struct:multiboot_info
+mmap_length	multiboot.h	/^  unsigned long mmap_length;$/;"	m	struct:multiboot_info
+mod_end	multiboot.h	/^  unsigned long mod_end;$/;"	m	struct:module
+mod_start	multiboot.h	/^  unsigned long mod_start;$/;"	m	struct:module
+mods_addr	multiboot.h	/^  unsigned long mods_addr;$/;"	m	struct:multiboot_info
+mods_count	multiboot.h	/^  unsigned long mods_count;$/;"	m	struct:multiboot_info
+module	multiboot.h	/^typedef struct module$/;"	s
+module_t	multiboot.h	/^} module_t;$/;"	t	typeref:struct:module
+multiboot_entry	boot.S	/^multiboot_entry:$/;"	l
+multiboot_header	boot.S	/^multiboot_header:$/;"	l
+multiboot_header	multiboot.h	/^typedef struct multiboot_header$/;"	s
+multiboot_header_t	multiboot.h	/^} multiboot_header_t;$/;"	t	typeref:struct:multiboot_header
+multiboot_info	multiboot.h	/^typedef struct multiboot_info$/;"	s
+multiboot_info_t	multiboot.h	/^} multiboot_info_t;$/;"	t	typeref:struct:multiboot_info
+nextfree	memory.c	/^static uint8 *nextfree = (uint8*) 0x200000;$/;"	v	file:
+num	multiboot.h	/^  unsigned long num;$/;"	m	struct:elf_section_header_table
+phys_to_virt	.pc/02-static-inline.patch/io.h	/^extern inline void * phys_to_virt(unsigned long address)$/;"	f
+phys_to_virt	io.h	/^extern inline void * phys_to_virt(unsigned long address)$/;"	f
+psychedelic	.pc/05-pause.patch/game.c	/^static bool psychedelic=false;$/;"	v	file:
+psychedelic	game.c	/^static bool psychedelic=false;$/;"	v	file:
+readb	.pc/02-static-inline.patch/io.h	170;"	d
+readb	io.h	170;"	d
+readl	.pc/02-static-inline.patch/io.h	172;"	d
+readl	io.h	172;"	d
+readw	.pc/02-static-inline.patch/io.h	171;"	d
+readw	io.h	171;"	d
+reboot	.pc/04-change-colors.patch/game.c	/^static inline void reboot()$/;"	f	file:
+reboot	.pc/05-pause.patch/game.c	/^static inline void reboot()$/;"	f	file:
+reboot	game.c	/^static inline void reboot()$/;"	f	file:
+reserved	multiboot.h	/^  unsigned long reserved;$/;"	m	struct:aout_symbol_table
+reserved	multiboot.h	/^  unsigned long reserved;$/;"	m	struct:module
+resetgame	.pc/01-misspelling-loose.patch/game.c	/^void resetgame()$/;"	f
+resetgame	.pc/03-reboot-on-esc.patch/game.c	/^void resetgame()$/;"	f
+resetgame	.pc/04-change-colors.patch/game.c	/^void resetgame()$/;"	f
+resetgame	.pc/05-pause.patch/game.c	/^void resetgame()$/;"	f
+resetgame	game.c	/^void resetgame()$/;"	f
+ringbuf	.pc/04-change-colors.patch/keyboard.c	/^static uint8 *ringbuf=0;$/;"	v	file:
+ringbuf	.pc/05-pause.patch/keyboard.c	/^static uint8 *ringbuf=0;$/;"	v	file:
+ringbuf	keyboard.c	/^static uint8 *ringbuf=0;$/;"	v	file:
+ringend	.pc/04-change-colors.patch/keyboard.c	/^static uint32 ringstart=0, ringend=0, ringsize=1024;$/;"	v	file:
+ringend	.pc/05-pause.patch/keyboard.c	/^static uint32 ringstart=0, ringend=0, ringsize=1024;$/;"	v	file:
+ringend	keyboard.c	/^static uint32 ringstart=0, ringend=0, ringsize=1024;$/;"	v	file:
+ringsize	.pc/04-change-colors.patch/keyboard.c	/^static uint32 ringstart=0, ringend=0, ringsize=1024;$/;"	v	file:
+ringsize	.pc/05-pause.patch/keyboard.c	/^static uint32 ringstart=0, ringend=0, ringsize=1024;$/;"	v	file:
+ringsize	keyboard.c	/^static uint32 ringstart=0, ringend=0, ringsize=1024;$/;"	v	file:
+ringstart	.pc/04-change-colors.patch/keyboard.c	/^static uint32 ringstart=0, ringend=0, ringsize=1024;$/;"	v	file:
+ringstart	.pc/05-pause.patch/keyboard.c	/^static uint32 ringstart=0, ringend=0, ringsize=1024;$/;"	v	file:
+ringstart	keyboard.c	/^static uint32 ringstart=0, ringend=0, ringsize=1024;$/;"	v	file:
+ship	.pc/01-misspelling-loose.patch/game.c	/^static int8 ship,shipmove;$/;"	v	file:
+ship	.pc/03-reboot-on-esc.patch/game.c	/^static int8 ship,shipmove;$/;"	v	file:
+ship	.pc/04-change-colors.patch/game.c	/^static int8 ship,shipmove;$/;"	v	file:
+ship	.pc/05-pause.patch/game.c	/^static int8 ship,shipmove;$/;"	v	file:
+ship	game.c	/^static int8 ship,shipmove;$/;"	v	file:
+shipcolor	.pc/05-pause.patch/game.c	/^static int8 shotcolor=4,shipcolor=5,aliencolor=3;$/;"	v	file:
+shipcolor	game.c	/^static int8 shotcolor=4,shipcolor=5,aliencolor=3;$/;"	v	file:
+shipmove	.pc/01-misspelling-loose.patch/game.c	/^static int8 ship,shipmove;$/;"	v	file:
+shipmove	.pc/03-reboot-on-esc.patch/game.c	/^static int8 ship,shipmove;$/;"	v	file:
+shipmove	.pc/04-change-colors.patch/game.c	/^static int8 ship,shipmove;$/;"	v	file:
+shipmove	.pc/05-pause.patch/game.c	/^static int8 ship,shipmove;$/;"	v	file:
+shipmove	game.c	/^static int8 ship,shipmove;$/;"	v	file:
+shndx	multiboot.h	/^  unsigned long shndx;$/;"	m	struct:elf_section_header_table
+shot_t	.pc/01-misspelling-loose.patch/game.c	/^struct shot_t {$/;"	s	file:
+shot_t	.pc/03-reboot-on-esc.patch/game.c	/^struct shot_t {$/;"	s	file:
+shot_t	.pc/04-change-colors.patch/game.c	/^struct shot_t {$/;"	s	file:
+shot_t	.pc/05-pause.patch/game.c	/^struct shot_t {$/;"	s	file:
+shot_t	game.c	/^struct shot_t {$/;"	s	file:
+shotcolor	.pc/05-pause.patch/game.c	/^static int8 shotcolor=4,shipcolor=5,aliencolor=3;$/;"	v	file:
+shotcolor	game.c	/^static int8 shotcolor=4,shipcolor=5,aliencolor=3;$/;"	v	file:
+shots	.pc/01-misspelling-loose.patch/game.c	/^static struct shot_t shots[NUMSHOTS];$/;"	v	typeref:struct:shot_t	file:
+shots	.pc/03-reboot-on-esc.patch/game.c	/^static struct shot_t shots[NUMSHOTS];$/;"	v	typeref:struct:shot_t	file:
+shots	.pc/04-change-colors.patch/game.c	/^static struct shot_t shots[NUMSHOTS];$/;"	v	typeref:struct:shot_t	file:
+shots	.pc/05-pause.patch/game.c	/^static struct shot_t shots[NUMSHOTS];$/;"	v	typeref:struct:shot_t	file:
+shots	game.c	/^static struct shot_t shots[NUMSHOTS];$/;"	v	typeref:struct:shot_t	file:
+size	multiboot.h	/^  unsigned long size;$/;"	m	struct:elf_section_header_table
+size	multiboot.h	/^  unsigned long size;$/;"	m	struct:memory_map
+sound_freq	sound.c	/^void sound_freq (uint32 freq)$/;"	f
+sound_nosound	sound.c	/^void sound_nosound ()$/;"	f
+sounder	.pc/01-misspelling-loose.patch/game.c	/^void sounder()$/;"	f
+sounder	.pc/03-reboot-on-esc.patch/game.c	/^void sounder()$/;"	f
+sounder	.pc/04-change-colors.patch/game.c	/^void sounder()$/;"	f
+sounder	.pc/05-pause.patch/game.c	/^void sounder()$/;"	f
+sounder	game.c	/^void sounder()$/;"	f
+start	boot.S	/^start:$/;"	l
+string	multiboot.h	/^  unsigned long string;$/;"	m	struct:module
+strsize	multiboot.h	/^  unsigned long strsize;$/;"	m	struct:aout_symbol_table
+tabsize	multiboot.h	/^  unsigned long tabsize;$/;"	m	struct:aout_symbol_table
+true	types.h	17;"	d
+type	multiboot.h	/^  unsigned long type;$/;"	m	struct:memory_map
+u	multiboot.h	/^  } u;$/;"	m	struct:multiboot_info	typeref:union:multiboot_info::__anon1
+uint16	types.h	/^typedef unsigned short uint16;$/;"	t
+uint32	types.h	/^typedef unsigned int uint32;$/;"	t
+uint64	types.h	/^typedef unsigned long long uint64;$/;"	t
+uint8	types.h	/^typedef unsigned char uint8;$/;"	t
+video_attr	.pc/01-uint8-char.patch/video.c	/^static uint8 video_attr=7;$/;"	v	file:
+video_attr	video.c	/^static uint8 video_attr=7;$/;"	v	file:
+video_blinkchars	.pc/01-uint8-char.patch/video.c	/^void video_blinkchars(bool onoff)$/;"	f
+video_blinkchars	video.c	/^void video_blinkchars(bool onoff)$/;"	f
+video_fill	.pc/01-uint8-char.patch/video.c	/^void video_fill(int32 x, int32 y, int32 width, int32 height, uint8 code)$/;"	f
+video_fill	video.c	/^void video_fill(int32 x, int32 y, int32 width, int32 height, uint8 code)$/;"	f
+video_hidecursor	.pc/01-uint8-char.patch/video.c	/^void video_hidecursor()$/;"	f
+video_hidecursor	video.c	/^void video_hidecursor()$/;"	f
+video_initialize	.pc/01-uint8-char.patch/video.c	/^void video_initialize()$/;"	f
+video_initialize	video.c	/^void video_initialize()$/;"	f
+video_poscursor	.pc/01-uint8-char.patch/video.c	/^void video_poscursor(int32 x, int32 y)$/;"	f
+video_poscursor	video.c	/^void video_poscursor(int32 x, int32 y)$/;"	f
+video_putchar	.pc/01-uint8-char.patch/video.c	/^void video_putchar(int32 x, int32 y, uint8 code)$/;"	f
+video_putchar	video.c	/^void video_putchar(int32 x, int32 y, uint8 code)$/;"	f
+video_puthex8	.pc/01-uint8-char.patch/video.c	/^void video_puthex8(int32 x, int32 y, uint8 hex)$/;"	f
+video_puthex8	video.c	/^void video_puthex8(int32 x, int32 y, uint8 hex)$/;"	f
+video_putstring	.pc/01-uint8-char.patch/video.c	/^void video_putstring(int32 x, int32 y, uint8 *str)$/;"	f
+video_putstring	video.c	/^void video_putstring(int32 x, int32 y, char *str)$/;"	f
+video_setcolor	.pc/01-uint8-char.patch/video.c	/^void video_setcolor(uint8 colnum, uint8 red, uint8 green, uint8 blue)$/;"	f
+video_setcolor	video.c	/^void video_setcolor(uint8 colnum, uint8 red, uint8 green, uint8 blue)$/;"	f
+video_update	.pc/01-uint8-char.patch/video.c	/^void video_update()$/;"	f
+video_update	video.c	/^void video_update()$/;"	f
+video_usecolor	.pc/01-uint8-char.patch/video.c	/^void video_usecolor(uint8 fg, uint8 bg)$/;"	f
+video_usecolor	video.c	/^void video_usecolor(uint8 fg, uint8 bg)$/;"	f
+video_visiblecursor	.pc/01-uint8-char.patch/video.c	/^static void video_visiblecursor (bool onoff)$/;"	f	file:
+video_visiblecursor	video.c	/^static void video_visiblecursor (bool onoff)$/;"	f	file:
+videohidden	.pc/01-uint8-char.patch/video.c	/^static uint8 *videohidden = 0;$/;"	v	file:
+videohidden	video.c	/^static uint8 *videohidden = 0;$/;"	v	file:
+virt_to_bus	.pc/02-static-inline.patch/io.h	160;"	d
+virt_to_bus	io.h	160;"	d
+virt_to_phys	.pc/02-static-inline.patch/io.h	/^extern inline unsigned long virt_to_phys(volatile void * address)$/;"	f
+virt_to_phys	io.h	/^extern inline unsigned long virt_to_phys(volatile void * address)$/;"	f
+winner	.pc/01-misspelling-loose.patch/game.c	/^static bool gameover, winner;$/;"	v	file:
+winner	.pc/03-reboot-on-esc.patch/game.c	/^static bool gameover, winner;$/;"	v	file:
+winner	.pc/04-change-colors.patch/game.c	/^static bool gameover, winner;$/;"	v	file:
+winner	.pc/05-pause.patch/game.c	/^static bool gameover, winner;$/;"	v	file:
+winner	game.c	/^static bool gameover, winner;$/;"	v	file:
+writeb	.pc/02-static-inline.patch/io.h	177;"	d
+writeb	io.h	177;"	d
+writel	.pc/02-static-inline.patch/io.h	179;"	d
+writel	io.h	179;"	d
+writew	.pc/02-static-inline.patch/io.h	178;"	d
+writew	io.h	178;"	d
+x	.pc/01-misspelling-loose.patch/game.c	/^  int8 x,y; \/\/ x==-1 -> dead alien$/;"	m	struct:alien_t	file:
+x	.pc/01-misspelling-loose.patch/game.c	/^  int8 x,y; \/\/ x==-1 -> inactive shot$/;"	m	struct:shot_t	file:
+x	.pc/03-reboot-on-esc.patch/game.c	/^  int8 x,y; \/\/ x==-1 -> dead alien$/;"	m	struct:alien_t	file:
+x	.pc/03-reboot-on-esc.patch/game.c	/^  int8 x,y; \/\/ x==-1 -> inactive shot$/;"	m	struct:shot_t	file:
+x	.pc/04-change-colors.patch/game.c	/^  int8 x,y; \/\/ x==-1 -> dead alien$/;"	m	struct:alien_t	file:
+x	.pc/04-change-colors.patch/game.c	/^  int8 x,y; \/\/ x==-1 -> inactive shot$/;"	m	struct:shot_t	file:
+x	.pc/05-pause.patch/game.c	/^  int8 x,y; \/\/ x==-1 -> dead alien$/;"	m	struct:alien_t	file:
+x	.pc/05-pause.patch/game.c	/^  int8 x,y; \/\/ x==-1 -> inactive shot$/;"	m	struct:shot_t	file:
+x	game.c	/^  int8 x,y; \/\/ x==-1 -> dead alien$/;"	m	struct:alien_t	file:
+x	game.c	/^  int8 x,y; \/\/ x==-1 -> inactive shot$/;"	m	struct:shot_t	file:
+xadd	.pc/01-misspelling-loose.patch/game.c	/^  int8 xadd;$/;"	m	struct:alien_t	file:
+xadd	.pc/03-reboot-on-esc.patch/game.c	/^  int8 xadd;$/;"	m	struct:alien_t	file:
+xadd	.pc/04-change-colors.patch/game.c	/^  int8 xadd;$/;"	m	struct:alien_t	file:
+xadd	.pc/05-pause.patch/game.c	/^  int8 xadd;$/;"	m	struct:alien_t	file:
+xadd	game.c	/^  int8 xadd;$/;"	m	struct:alien_t	file:
+y	.pc/01-misspelling-loose.patch/game.c	/^  int8 x,y; \/\/ x==-1 -> dead alien$/;"	m	struct:alien_t	file:
+y	.pc/01-misspelling-loose.patch/game.c	/^  int8 x,y; \/\/ x==-1 -> inactive shot$/;"	m	struct:shot_t	file:
+y	.pc/03-reboot-on-esc.patch/game.c	/^  int8 x,y; \/\/ x==-1 -> dead alien$/;"	m	struct:alien_t	file:
+y	.pc/03-reboot-on-esc.patch/game.c	/^  int8 x,y; \/\/ x==-1 -> inactive shot$/;"	m	struct:shot_t	file:
+y	.pc/04-change-colors.patch/game.c	/^  int8 x,y; \/\/ x==-1 -> dead alien$/;"	m	struct:alien_t	file:
+y	.pc/04-change-colors.patch/game.c	/^  int8 x,y; \/\/ x==-1 -> inactive shot$/;"	m	struct:shot_t	file:
+y	.pc/05-pause.patch/game.c	/^  int8 x,y; \/\/ x==-1 -> dead alien$/;"	m	struct:alien_t	file:
+y	.pc/05-pause.patch/game.c	/^  int8 x,y; \/\/ x==-1 -> inactive shot$/;"	m	struct:shot_t	file:
+y	game.c	/^  int8 x,y; \/\/ x==-1 -> dead alien$/;"	m	struct:alien_t	file:
+y	game.c	/^  int8 x,y; \/\/ x==-1 -> inactive shot$/;"	m	struct:shot_t	file:

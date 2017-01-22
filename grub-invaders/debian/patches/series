@@ -1,0 +1,7 @@
+01-misspelling-loose.patch
+01-uint8-char.patch
+02-build-flags.patch
+02-static-inline.patch
+03-reboot-on-esc.patch
+04-change-colors.patch
+05-pause.patch
